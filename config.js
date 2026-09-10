@@ -41,7 +41,7 @@ const CONFIG = {
     /* Endereço do site depois de publicado (ex: 'https://ubs-steffen.vercel.app').
        Preenchido no passo final da publicação; usado só pelo cartaz.html
        para gerar o QR code impresso. */
-    site: '',
+    site: 'https://ubs-steffen.vercel.app',
 
     /* Página que lista TODAS as unidades de saúde, no site da Secretaria. */
     paginaUnidades: 'https://www.smsbrusque.sc.gov.br/unidade',
