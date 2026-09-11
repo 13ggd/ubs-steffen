@@ -24,10 +24,10 @@ const CONFIG = {
     orgao:    'Prefeitura de Brusque · Secretaria de Saúde',
     nome:     'UBS Steffen',
     subtitulo:'Unidade Básica de Saúde',
-    endereco: '[Endereço a confirmar com a unidade]',
-    bairro:   '[Bairro a confirmar] — Brusque/SC',
-    telefone: '(47) 3355-7750',
-    telefoneLink: '+554733557750',
+    endereco: 'R. Rodolfo Steffen, 212',
+    bairro:   'Bairro Steffen — Brusque/SC',
+    telefone: '(47) 20170-585',
+    telefoneLink: '+554720170585',
     /* Número separado para encaminhamentos — não confirmado para esta unidade. */
     telefoneEncaminhamentos: '',
     telefoneEncaminhamentosLink: '',
@@ -35,7 +35,7 @@ const CONFIG = {
     secretaria:     '(47) 3255-6800',
     secretariaLink: '+554732556800',
     /* Link "Abrir o mapa no celular" — só depois de confirmar o endereço. */
-    mapa: '',
+    mapa: 'UBS Steffen, R. Rodolfo Steffen, 212, Brusque - SC',
     instagram: '',
 
     /* Endereço do site depois de publicado (ex: 'https://ubs-steffen.vercel.app').
@@ -147,9 +147,8 @@ const CONFIG = {
   avisosReserva: [
     { tipo:'recado', setor:'', ativo:true,
       titulo:'Site em fase de configuração',
-      texto:'Os horários e a equipe desta unidade ainda não foram confirmados. Ligue para ' +
-            '(47) 3355-7750 para saber o horário de atendimento. O telefone acima foi obtido em uma ' +
-            'busca na internet e ainda não foi confirmado junto à Secretaria de Saúde de Brusque.',
+      texto:'Endereço e telefone confirmados junto à Secretaria de Saúde de Brusque. O horário de ' +
+            'atendimento e a equipe ainda não foram confirmados — ligue para (47) 20170-585 antes de vir.',
       inicio:'2026-09-10', fim:'2027-12-31', novo:'' }
   ],
 
