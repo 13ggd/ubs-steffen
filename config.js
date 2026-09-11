@@ -44,7 +44,7 @@ const CONFIG = {
     site: 'https://ubs-steffen.vercel.app',
 
     /* Página que lista TODAS as unidades de saúde, no site da Secretaria. */
-    paginaUnidades: 'https://www.smsbrusque.sc.gov.br/unidade',
+    paginaUnidades: 'https://ubs-brusque-painel.vercel.app',
 
     /* Foto do prédio (fachada). Vazio até ter foto confirmada. */
     foto: ''
